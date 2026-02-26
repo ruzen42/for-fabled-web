@@ -1,0 +1,202 @@
+html
+{
+  font-size: 72.5%;
+}
+
+body
+{
+  font-size: 1.6rem;
+  color: #d6d6d6;
+  background: #0d0d0d;
+  font-family: "Terminus", monospace;
+  line-height: 1.6;
+}
+
+/* --- LAYOUT --- */
+
+header
+{
+  border-bottom: 0.2rem solid #2a2a2a;
+  padding-bottom: 0.8rem;
+}
+
+footer
+{
+  margin-top: 3rem;
+  padding: 1.2rem 0;
+  border-top: 0.2rem solid #2a2a2a;
+  font-size: 1.2rem;
+  color: #777;
+}
+
+/* --- NAV --- */
+
+nav
+{
+  text-align: right;
+}
+
+nav a
+{
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #e0e0e0;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 0.1rem dotted #555;
+}
+
+nav a:hover
+{
+  color: #ffffff;
+  border-bottom: 0.1rem solid #999;
+}
+
+/* --- LOGO --- */
+
+.logo a
+{
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+}
+
+/* --- HEADINGS --- */
+
+h1
+{
+  font-size: 2.6rem;
+  border-left: 0.4rem solid #888;
+  padding-left: 1rem;
+}
+
+h2
+{
+  font-size: 2rem;
+  border-left: 0.3rem solid #555;
+  padding-left: 0.8rem;
+}
+
+/* --- ARTICLE META --- */
+
+article .header
+{
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #888;
+}
+
+/* --- STRATEGY STYLE BLOCKS --- */
+
+article
+{
+  background: #141414;
+  padding: 1.6rem;
+  border: 0.1rem solid #2a2a2a;
+  margin-bottom: 2rem;
+}
+
+/* --- LINKS --- */
+
+a
+{
+  color: #9ecbff;
+}
+
+a:hover
+{
+  color: #cfe6ff;
+}
+
+/* --- MOBILE --- */
+
+@media (max-width: 639px)
+{
+  body
+  {
+    width: 90%;
+    margin: 0;
+    padding: 0 5%;
+  }
+
+  header
+  {
+    margin: 3rem 0;
+  }
+
+  nav
+  {
+    margin: 0 auto 2rem;
+    text-align: center;
+  }
+
+  footer
+  {
+    text-align: center;
+  }
+
+  .logo
+  {
+    text-align: center;
+    margin: 1rem auto 2rem;
+  }
+
+  .logo a
+  {
+    font-size: 2.2rem;
+  }
+
+  nav a
+  {
+    display: block;
+    margin: 0.4rem 0;
+  }
+}
+
+/* --- DESKTOP --- */
+
+@media (min-width: 640px)
+{
+  body
+  {
+    width: 64rem;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  header
+  {
+    margin: 0 0 3rem;
+    padding: 1rem 0;
+  }
+
+  nav
+  {
+    margin: 0;
+    text-align: right;
+  }
+
+  nav a
+  {
+    margin: 0 0 0 1.2rem;
+    display: inline;
+  }
+
+  footer
+  {
+    text-align: right;
+  }
+
+  .logo
+  {
+    margin: 0;
+    text-align: left;
+  }
+
+  .logo a
+  {
+    float: left;
+    font-size: 1.8rem;
+  }
+}
