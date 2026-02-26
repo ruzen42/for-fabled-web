@@ -2,7 +2,7 @@ name: Build and Deploy Hakyll Site
 
 on:
   push:
-    branches: ["main"]
+    branches: ["devel"]
   workflow_dispatch:
 
 permissions:
